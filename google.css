@@ -1,0 +1,156 @@
+/*navihation bar/top*/
+
+.nav {
+  position: static;
+  display: block;
+  height: 60px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.nav li {
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-right: 30px;
+  color: #535353;
+  font-size: 14px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav button {
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  background-color: #3366FF;
+  border-radius: 5px;
+  border: 1px solid #3366FF;
+}
+
+/*Head/Logo*/
+
+.logo {
+  background-image: url(https://www.google.de/images/srpr/logo11w.png);
+  background-repeat: no-repeat;
+  background-size: 269px 100px;
+  height: 70px;
+  width: 269px;
+  display: block;
+  margin-top: 140px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.bar {
+  border-collapse: collapse;
+  border: 1px solid #3366FF;
+  width: 550px;
+  height: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+
+            /* (two Attempts to insert the little "voice_control" icon from the google search bar, into the search bar.)
+
+            .bar {
+              background:  white url("data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs");
+              background-position: left;
+              background-repeat: no-repeat;
+            }
+
+            #search_bar img {
+              position: absolute
+              margin:8px 0 0 5px;
+              heigt: 16px;
+              width: 10px;
+              padding-left: 500px;
+              color: #CFCFCF
+            } */
+
+.search {
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  height: 50px;
+  text-align: center;
+  word-spacing: 20px;
+}
+
+.search button {
+  height: 29px;
+  line-height: 27px;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #262626;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  border: 1px solid #CFCFCF;
+
+}
+
+/*end*/
+.foot {
+  font-weight: lighter;
+  clear: both;
+  position: fixed;
+  display: block;
+  height: 60px;
+  width: 100%;
+  margin-top: 490px;
+  margin-bottom: -10px;
+  padding: inherit;
+  border: 1px solid beige;
+  background-color: #F8F8F8;
+}
+
+.left li {
+  font-size: 14px;
+  float: left;
+  list-style: none;
+  display: inline;
+  margin-right: 30px;
+  color: black;
+  padding-top: 9px;
+}
+
+.right li {
+  font-size: 14px;
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-right: 30px;
+  color: black;
+  padding-top: 9px;
+}
+
+.left a{
+  text-decoration: none;
+  color: grey;
+}
+
+.right a {
+  text-decoration: none;
+  color: grey;
+}
+
+/*other*/
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: arial,sans-serif;
+}
